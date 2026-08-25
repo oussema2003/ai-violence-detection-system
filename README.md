@@ -941,14 +941,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-## 👥 Auteurs
-
-**Nom de l'équipe / Auteur principal**
-- Développeur principal : [Votre Nom]
-- Email : [votre.email@example.com]
-- GitHub : [@votre-username](https://github.com/votre-username)
-- LinkedIn : [Votre Profil](https://linkedin.com/in/votre-profil)
-
 ### Contributeurs
 
 Merci à tous les contributeurs qui ont participé à ce projet !
@@ -959,7 +951,7 @@ Merci à tous les contributeurs qui ont participé à ce projet !
 
 ## 🙏 Remerciements
 
-- **Ultralytics** pour YOLOv8
+- **Ultralytics** pour YOLOv26
 - **PyTorch Team** pour le framework de deep learning
 - **FastAPI** pour le framework web
 - **React Team** pour la bibliothèque UI

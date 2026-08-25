@@ -1,0 +1,163 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# PyTorch Models (keep only the final trained models)
+*.pt
+*.pth
+*.onnx
+!violence_transformer.pt
+!project_yolo26x-pose.pt
+
+# Data files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+*.wmv
+datasets/
+recordings/
+videos/
+*.jpg
+*.jpeg
+*.png
+*.gif
+!screenshots/
+!docs/images/
+
+# Logs and metrics
+logs/
+*.log
+*.csv
+!requirements.txt
+!package.json
+!package-lock.json
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+data/
+*.sql
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp
+.pnp.js
+dist/
+build/
+
+# Python virtual environments
+venv/
+ENV/
+env/
+.venv
+virtualenv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# PyCharm
+.idea/
+
+# Weights & Models (except final)
+*.pkl
+!scaler.pkl
+models/checkpoints/
+models/experiments/
+models/temp/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~.nib
+.cache/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# Translations
+*.mo
+*.pot
+
+# Sphinx documentation
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Training outputs
+training_history.png
+confusion_matrix.png
+roc_curve.png
+results/
+
+# Frontend build
+frontend/dist/
+frontend/build/
+frontend/.cache/
+
+# Backend cache
+backend/__pycache__/
+backend/.pytest_cache/
+backend/recordings/
+
+# Large files
+*.tar
+*.tar.gz
+*.zip
+*.rar
+*.7z

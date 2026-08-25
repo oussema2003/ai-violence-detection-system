@@ -1,0 +1,4 @@
+# Copiez vos modèles entraînés ici :
+# - project_yolo26x-pose.pt  (ou laissez YOLO télécharger automatiquement)
+# - violence_transformer.pt
+# - scaler.pkl

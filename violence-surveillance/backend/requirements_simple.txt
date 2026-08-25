@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+alembic
+python-dotenv
+opencv-python-headless
+torch
+torchvision
+ultralytics
+numpy
+scikit-learn
+scipy
+pillow
+python-multipart
+websockets
+aiofiles
